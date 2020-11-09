@@ -29,8 +29,8 @@ function App() {
         <div>
             <Header />
             <Container>
-                <h1 className="title text-5xl text-gray-800 mt-16">Employee Directory</h1>
-                <p className="mb-16 text-md">Sort by Name.</p>               
+                <h1>Employee Directory</h1>
+                <p>Sort by Name.</p>               
                 <Search
                     onSearch={handleSearchTerm}
                     searchTerm={searchTerm}

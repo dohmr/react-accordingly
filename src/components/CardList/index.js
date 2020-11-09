@@ -9,8 +9,8 @@ function CardList ({ data }) {
                 key={employee.id}
                 image={employee.image}
                 name={employee.name}
-                dept={employee.occupation}
-                email={employee.location}
+                job={employee.occupation}
+                home={employee.location}
                 phone={employee.phone}
             />
             ))

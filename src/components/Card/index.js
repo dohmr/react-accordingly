@@ -1,20 +1,25 @@
 import React from "react";
 
- function Card({ name, image, dept, email, phone}) { 
+ function Card({ name, image,job, home, phone}) { 
     return (
-        <div className="md:flex bg-white shadow text-gray-800 my-4 py-4 px-10 rounded-md items-center justify-between hover:bg-gray-300">
+        <div className="card" width="10rem">
             <img
-                style={{ maxWidth: "60px"}}
-                className="rounded-full shadow-md border border-gray-300"
+                style={{ maxWidth: "40px"}}
+                className="card-img-top"
                 src={image}
                 alt="employee"
             />
-            <p className="font-bold text-md">{name}</p>
-            <p>{dept}</p>
-            <p className="text-blue-500">{email}</p>
+            <p>{name}</p>
+            <p>{job}</p>
+            <p>{home}</p>
             <p>{phone}</p>
         </div>
     )
 }
 
+//   <img src="..." class="card-img-top" alt="...">
+//   <div class="card-body">
+//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//   </div>
+// </div>
 export default Card;

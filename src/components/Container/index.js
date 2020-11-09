@@ -2,7 +2,7 @@ import React from "react";
 
 function Container(props) {
     return (
-        <div className="container max-w-6xl px-10 mx-auto">
+        <div className="container mx-auto center">
             {props.children}
         </div>
     )
