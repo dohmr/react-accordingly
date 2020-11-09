@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from "./components/Container";
 import Header from "./components/Header";
 import Search from "./components/Search";
